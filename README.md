@@ -1,3 +1,3 @@
 # AutoSuggest
 
-# This is my new repo for projct !
+# This is my new repo for project !
