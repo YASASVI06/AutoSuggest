@@ -67,3 +67,39 @@ h1 {
 #nav a:hover {
     opacity: 0.8;             /* Makes the link slightly fade when you hover over it */
 }
+#card{
+    text-align: center;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px;
+    background-color: #a199dc; 
+    color: white;              
+    margin-bottom: 30px;  
+}
+/* Container for the image and name together */
+#image-card{
+    text-align: center;
+    
+    
+}
+#card-name{
+    text-align: center;
+}
+#card-gender{
+    text-align: center;
+}
+#card-toggle {
+    display: block;              /* Forces the button to respect margin centering rules */
+    margin: 0 auto !important;   /* DEAD CENTER: 0 top/bottom, auto left/right */
+    width: fit-content;          /* Keeps the button width wrapped neatly around the text */
+    
+    background-color: #6c5ce7;   /* Matching aesthetic purple/violet */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 25px;           /* Clean padding */
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
