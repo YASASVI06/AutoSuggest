@@ -10,9 +10,7 @@ const users = [
     "image": "./images/john.png"
   }
 ];
-
 let curUserId = 0;
-
 function toggle(){
 
   if(curUserId == 0)

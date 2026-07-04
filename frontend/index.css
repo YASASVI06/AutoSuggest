@@ -10,6 +10,7 @@ body {
     color: #1f2937;
     min-height: 100vh;
     padding: 24px;
+    transition: background 0.4s ease, transform 0.4s ease;
 }
 
 #nav {
@@ -45,6 +46,13 @@ body {
     background: rgba(255, 255, 255, 0.92);
     box-shadow: 0 20px 45px rgba(79, 93, 136, 0.12);
     text-align: center;
+    transition: transform 0.22s cubic-bezier(.2,.9,.2,1), box-shadow 0.22s ease, background 0.22s ease;
+}
+
+.home-intro:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 36px 70px rgba(79, 93, 136, 0.18);
+    background: rgba(255,255,255,1);
 }
 
 .home-intro h1 {
